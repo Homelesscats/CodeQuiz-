@@ -5,6 +5,13 @@ const startBtnEl = document.querySelector("#start-button");
 const inputEl = document.querySelector("#user-input");
 const results = document.querySelector("#results");
 const submitBtn = document.querySelector("#submit");
+const endQuiz = false;
+const timeLeft = 60;
+const score = 0;
+const current = 0;
+const highScores = [];
+const shuffledQuestions = [];
+const shuffledAnswers = [];
 
 const questions = [
   {
@@ -39,4 +46,19 @@ const questions = [
   },
 ];
 
-alert("Welcome to the Coding Quiz Challenge! Press OK to begin.");
+const setTimer = () => {
+  timerEl.textContent = "Time: " + timeLeft;
+  var timerInterval = setInterval(function () {
+    timeLeft--;
+    if (timeLeft >= 0) {
+      timerEl.textContent = "Time: " + timeLeft;
+    }
+    if (timeLeft === 0 || timeLeft < 0) {
+      endQuiz = true;
+      if (endQuiz) {
+        quizOver();
+      }
+      clearInterval(timerInterval);
+    }
+  }, 1000);
+};
