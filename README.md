@@ -33,6 +33,9 @@ THEN I can save my initials and score
 
 [Please open index.html in your default browser](https://github.com/Homelesscats/CodeQuiz-)
 
+file:///C:/Users/Element%20Dental/Desktop/Module-04/webAPIQuiz/index.html
+
+
 
 ## Installation 
 Please download the zip file. Run index.html in the browser   
