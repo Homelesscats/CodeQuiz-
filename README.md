@@ -31,7 +31,7 @@ THEN I can save my initials and score
 
 ## Deployed Application
 
-https://github.com/Homelesscats/CodeQuiz-
+[Please open index.html in your default browser](https://github.com/Homelesscats/CodeQuiz-)
 
 
 ## Installation 
