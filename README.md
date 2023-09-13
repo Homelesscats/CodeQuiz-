@@ -20,9 +20,6 @@ THEN the game is over
 WHEN the game is over  
 THEN I can save my initials and score  
 
-## Installation 
-Please download the zip file. Run index.html in the browser   
-
 
 ### Resources 
 <ol>
@@ -34,4 +31,8 @@ Please download the zip file. Run index.html in the browser
 
 ## Deployed Application
 
+https://github.com/Homelesscats/CodeQuiz-
 
+
+## Installation 
+Please download the zip file. Run index.html in the browser   
