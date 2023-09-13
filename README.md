@@ -31,9 +31,9 @@ THEN I can save my initials and score
 
 ## Deployed Application
 
-[Please open index.html in your default browser](https://github.com/Homelesscats/CodeQuiz-)
+repo:  [Please open index.html in your default browser](https://github.com/Homelesscats/CodeQuiz-)
 
-file:///C:/Users/Element%20Dental/Desktop/Module-04/webAPIQuiz/index.html
+deployed app(browser) : file:///C:/Users/Element%20Dental/Desktop/Module-04/webAPIQuiz/index.html
 
 
 
